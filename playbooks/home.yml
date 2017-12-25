@@ -1,0 +1,9 @@
+---
+- name: Running Home Playbook
+  hosts: localhost
+  remote_user: root
+  roles:
+  - roles/terminator
+  - roles/vim
+  - roles/sublime-text
+  - roles/wtanaka.chrome

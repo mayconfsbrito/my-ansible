@@ -1,0 +1,5 @@
+---
+- name: Install terminator
+  dnf:
+    name: terminator
+    state: latest
