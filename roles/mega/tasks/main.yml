@@ -1,0 +1,5 @@
+---
+- name: Installing Mega from Remote Repo
+  dnf:
+    name: https://mega.nz/linux/MEGAsync/{{ ansible_distribution }}_{{ ansible_distribution_version }}/x86_64/megasync-{{ ansible_distribution }}_{{ ansible_distribution_version }}.x86_64.rpm
+    state: present
